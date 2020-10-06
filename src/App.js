@@ -3,6 +3,7 @@ import './App.scss';
 import Photo from './components/Photo';
 import Header from './components/Header';
 import Name from './components/Name';
+import AboutMe from './components/AboutMe';
 
 class App extends Component {
   render() {
@@ -11,6 +12,8 @@ class App extends Component {
         <Photo />
         <Header />
         <Name />
+        <hr></hr>
+        <AboutMe />
       </main>
     );
   }
