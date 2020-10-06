@@ -43,3 +43,23 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+li {
+  background-color: $background;
+  margin-bottom: 20px;
+  line-height: 25px;
+  display: flex;
+
+p:first-child {
+  font-weight: 800;
+}
+
+
+div:nth-of-type(2) {
+  flex: 20;
+}
+
+div {
+  flex: 1;
+}
+}
